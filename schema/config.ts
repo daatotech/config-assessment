@@ -199,13 +199,9 @@ export type VisualizationType =
 	| 'progress'
 	| 'barChart'
 	| 'table'
-	| 'nested'
 	| 'donutChart'
-	| 'text'
-	| 'card'
-	| 'icon'
-	| 'pill'
-	| 'lineChart';
+    | 'lineChart'
+    | 'text';
 
 export type VisualizationConfig =
 	| ProgressVisualizationConfig
